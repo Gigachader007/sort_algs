@@ -1,5 +1,6 @@
 #pragma once
 
+#include "bogo_sort.hpp"
 #include "heap_sort.hpp"
 #include "inplace_merge_sort.hpp"
 #include "insertion_sort.hpp"

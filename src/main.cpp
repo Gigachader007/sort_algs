@@ -74,4 +74,12 @@ int main() {
     }
     std::cout << std::endl;
   }
+  {
+    std::vector<int> v = {5, 2, 9, 1, 5, 6};
+    bogo_sort(v.begin(), v.end());
+    for(int val : v){
+      std::cout << val << " ";
+    }
+    std::cout << std::endl;
+  }
 }
